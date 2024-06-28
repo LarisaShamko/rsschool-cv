@@ -50,5 +50,5 @@ __________________________________________________________
 _________________________________________________
 
 # English 
-Upper-intermidiate. Daily practise of writen and spoken English at work. Speaking practise while participating Work and Travel USA.
+Upper-intermidiate
 __________________________________________
