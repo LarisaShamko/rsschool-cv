@@ -21,3 +21,23 @@ __________________________________________________________________
 
 ___________________________________________________
 
+# Code 
+**Merge two sorted arrays into one from CODEWARS:** 
+```function mergeArrays(arr1, arr2) {
+  const newArr = [...arr1, ...arr2];
+  const uniqueNewArr = [...new Set(newArr)];
+  const result = uniqueNewArr.sort ( (a, b) => a - b );
+  return result
+}
+```
+___________________________________________________
+# Experience
+1. IT Logia JS intensive 
+2. JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/)
+3. MDN Web Docs Guides ["JavaScript Dynamic client-side scripting"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+4. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+5. Bogdan Stashzhuk [«JS Basics course» (11 hours)](https://www.youtube.com/watch?v=CxgOKJh4zWE)
+6. Bogdan Stashzhuk [Git and GitHub course (4 hours)](https://www.youtube.com/watch?v=O00FTZDxD0o)
+7. SuperSimpleDev [«JavaScript Tutorial Full Course - Beginner to Pro»](https://www.youtube.com/watch?v=EerdGm-ehJQ)
+__________________________________________________________
+
