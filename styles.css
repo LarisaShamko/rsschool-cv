@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(41, 43, 44);
+    background: #003147;
 }
 .container {
     position: relative;
@@ -57,13 +57,60 @@ body {
 .profile_text h2 span {
     font-weight: 300;
     font-size: 0.5em;
-
 }
-
-
-
-
-
+.contact_info {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact_info ul {
+    position: relative;
+}
+.contact_info ul li {
+    position: relative;
+    margin: 10px 0;
+    list-style: none;
+    cursor: pointer;
+}
+.contact_info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: #03a9f4;
+}
+.contact_info ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+.contact_info_education li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+.contact_info_education h4 {
+    color: #03a9f4;
+    font-weight: 600;
+}
+.contact_info_education h5 {
+    color: #fff;
+    font-weight: 400;
+}
+.contact_info_languages {
+    margin-top: 40px;;
+}
+.contact_info_languages li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contact_info_languages li h5 {
+    color: #fff;
+    font-weight: 400;
+}
 .container .right_side{
     position: relative;
     background-color: #fff;
