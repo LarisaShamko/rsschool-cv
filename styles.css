@@ -116,3 +116,14 @@ body {
     background-color: #fff;
     padding: 40px;
 }
+.about {
+    margin-bottom: 50px;
+}
+.about :last-child {
+    margin-bottom: 15px;
+}
+.title2 {
+color: #003147;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
