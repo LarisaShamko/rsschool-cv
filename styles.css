@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 .nav_list {
-    display: flex;
+    display: none;
     list-style: none;
     justify-content: space-around;
     margin: 0;
