@@ -45,14 +45,12 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
-.profile_text h2 {
-    font-size: 1,5em;
+.profile_text {
     color: #fff;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    line-height: 1.4em;
 }
 .profile_text h2 span {
     font-weight: 300;
@@ -111,6 +109,7 @@ body {
     color: #fff;
     font-weight: 400;
 }
+
 .container .right_side{
     position: relative;
     background-color: #fff;
@@ -153,4 +152,7 @@ text-transform: uppercase;
     top: 0;
     height: 100%;
     background: #03a9f4;
+}
+.code_example {
+    margin-bottom: 50px;
 }
