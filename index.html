@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Larisa Shamko Front-End developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#Education">Education</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#Languages">Languages</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#About me">About me</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#Code example">Code example</a>
+                </li>
+                <li class="nav_item">
+                    <a href="Projects">Projects</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#Courses">Courses</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="container">
+                <div class="left_side">
+                    <div class="profile_text">
+                        <div class="image_box">
+                            <img class="profile_image" src="profile_photo.jpg" alt="profile_photo" width="200" height="200">
+                        </div>
+                        <h2>Larisa Shamko<br><span>Junior Front-End Developer</span></h2>
+                    </div>
+                    <section class="contact_info">
+                        <h3 class="title">Contact</h3>
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <span class="text">+48 508 704 284</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                                <span class="text">shamkolk@gmail.com</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                                <span class="text"><a href="https://github.com/LarisaShamko">larisashamko</a></span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                                <span class="text"><a href="https://www.linkedin.com/in/larisa-shamko-383348308/"></a>Linkedin</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                <span class="text">Tarnowo Podgórne, Poland</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="contact_info_education">
+                        <h3 class="title">Education</h3>
+                        <ul>
+                            <li>
+                                <h4>Belarusian State University</h4>
+                                <h5>International tourism and excursion management</h5>
+                            </li>
+                            <li>
+                                <h4>Belarusian State University Advanced Training Institute</h4>
+                                <h5>Economic cybernetics</h5>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="contact_info_languages">
+                        <h3 class="title">Languages</h3>
+                        <ul>
+                            <li>
+                                <h5>English Upper-Intermidiate</h5>
+                            </li>
+                            <li>
+                                <h5>Polish B1</h5>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="right_side">
+                    <section class="about">
+                        <h1 class="title2">About me</h1>
+                        <p class="about_text">My goal is to grow professionally in IT.<br> I am interested in working in an international company, constantly learning and developing, as well as improving my English. <br> Thanks to my experience in tourism, I have gained skills in communication, solving complex problems, attention to details, discipline in work. <br><br>I started to study JS independently in summer 2023, many topics seemed absolutely incomprehensible. A year later I already know why typeof null = object, I’m solving Katas on Codewars and studying promises and event loop. <br>Nothing is impossible, you just need to clearly define the goal and the steps to achieve it, and constantly act. I plan to find my first commercial project in a year and start my career as a front-end developer.</p>
+                    </section>
+                    <section class="about skills">
+                        <h2 class="title2">Skills</h2>
+                        <div class="box">
+                            <h4>HTML</h4>
+                            <div class="percent">
+                                <div style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>CSS</h4>
+                            <div class="percent">
+                                <div style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>JavaScript</h4>
+                            <div class="percent">
+                                <div style="width: 55%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>GItHub</h4>
+                            <div class="percent">
+                                <div style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>VSCode</h4>
+                            <div class="percent">
+                                <div style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="code">
+                        <h2 class="title2">Code example</h2>
+                        <div class="code_example">
+                            <code>
+                                function mergeArrays(arr1, arr2) {
+                                    <br> const newArr = [...arr1, ...arr2];
+                                    <br> const uniqueNewArr = [...new Set(newArr)];
+                                    <br> const result = uniqueNewArr.sort ( (a, b) => a - b );
+                                    <br> return result
+                                    <br> }
+                            </code>
+                        </div>
+                    </section>
+                    <section class="projects">
+                        <div class="projects">
+                            <h2 class="title2">Projects</h2>
+                            <ol>
+                                <li><a href="https://github.com/LarisaShamko/rsschool-cv/blob/rsschool-cv-html/index.html">CV Front-End Developer</a></li>
+                                <li><a href="https://github.com/LarisaShamko/cookies_landing/blob/main/index.html">Cookies</a></li>
+                            </ol>
+                        </div>
+                    </section>
+                    <section class="about">
+                        <h2 class="title2">Courses</h2>
+                        <ol>
+                            <li>IT Logia <a href="https://itlogia.ru/intensive/front?utm_source=header-banner">JS intensive</a></li>
+                            <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                            <li>MDN Web Docs Guides <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">“JavaScript Dynamic client-side scripting”</a></li>
+                            <li>RS Schools Course <a href="https://rs.school/courses/javascript-preschool-ru">«JavaScript/Front-end. Stage 0»</a>(in progress)</li>
+                            <li>Bogdan Stashzhuk <a href="https://www.youtube.com/watch?v=CxgOKJh4zWE">«JS Basics course»</a>(11 hours)</li>
+                            <li>Bogdan Stashzhuk <a href="https://www.youtube.com/watch?v=O00FTZDxD0o">Git and GitHub course</a>(4 hours)</li>
+                            <li>SuperSimpleDev <a href="https://www.youtube.com/watch?v=EerdGm-ehJQ">«JavaScript Tutorial Full Course - Beginner to Pro»</a></li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer_container">
+                    <a href="https://github.com/LarisaShamko" class="href">My GitHub</a>
+                    <p>© 2024</p>
+                    <a href="https://rs.school/courses/javascript-preschool-ru" class="href"><img src="/rsschool (1).svg" alt="Rsschool Icon" width="75" height="25"></a>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
