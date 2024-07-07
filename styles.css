@@ -15,7 +15,6 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -126,6 +125,9 @@ color: #03a9f4;
 margin-bottom: 10px;
 text-transform: uppercase;
 }
+.about_text {
+    color: #000000;
+}
 .skills .box {
     position: relative;
     display: grid;
@@ -158,4 +160,16 @@ text-transform: uppercase;
 }
 .projects {
     margin-bottom: 50px;
+}
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px;
+    vertical-align: baseline;
+}
+.footer_container a, p {
+    color: #fff;
 }
